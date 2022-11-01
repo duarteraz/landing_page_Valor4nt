@@ -1,0 +1,49 @@
+@font-face {
+    font-family: fonte;
+    src: url(Zuume-Bold.otf);
+}
+
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header " 
+    "main "
+    "footer"
+    ;
+    
+    grid-template-rows: 10.5vh 1fr ;
+    background-color: #0F1923;
+}
+header{
+    grid-area: header;
+    background-color: #FF4655;
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 700;
+    
+}
+main{
+    grid-area: main;
+    background: no-repeat url(../img/background.png);
+    background-size: 75%;
+    display: grid;
+    grid-template-areas: 
+        "description buttom image"
+        "footer footer  image"
+        ;
+    grid-template-columns:  1fr 1fr 1fr;
+    margin-top: 26px;
+    padding-left: 64px;   
+   
+}
+footer{
+    grid-area: footer;
+    gap: 37px;
+    display: flex;
+    padding-top: 100px;
+    
+}

@@ -1,0 +1,35 @@
+.logo{
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+        "riot barra valorant";
+}
+.logo__RIOT{
+    grid-area: riot;
+    padding-top: 5px;
+    height: 6vh;
+}
+.logo__valorant{
+    grid-area: valorant;
+    padding-top: 5px;
+    height: 6vh;
+}
+.barra{
+    grid-area: barra;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 7vh;
+}
+.menus{
+    display: flex;
+    flex-direction: row;
+    width: 1fr;
+    gap: 32px;
+    color: #131723;
+    font-size: 1rem;
+    padding-left: 243px;  
+    background-color: #FF4655;
+    border-color: #FF4655;
+    color: #0F1923;
+    
+}
