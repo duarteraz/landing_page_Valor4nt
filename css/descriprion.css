@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Zuume" ;
+    src: url(../fonts/Zuume\ ExtraBold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.description{
+    grid-area: description;
+    padding-top: 62px;
+    display: grid;
+    width: 457px;
+    height: 535px;
+    grid-template-rows: 154px 45px 400px;
+}
+.titulo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.description__title{
+    position: absolute;
+    color: #FF4654;
+    font-weight: 800;
+    font-size: 13.75rem;
+    place-self: center;
+    font-family: Zuume , sans-serif;
+
+}
+.description__subTitle{
+
+    color: #FFFFFF;
+    font-family: Zuume , sans-serif;
+    font-size: 3rem;
+    place-self: end;
+    z-index: 1;
+    transform: translate(0, 40%);
+    
+}
+
+.description__bio{
+    color: #FFFFFF;
+    font-family: Zuume , sans-serif;
+    font-size: 2rem;
+    transform: translate(0, 45%);
+    
+}
+
+.description__text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 45px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: none;
+}

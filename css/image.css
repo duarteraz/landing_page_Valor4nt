@@ -1,0 +1,22 @@
+.image{
+    grid-area: image;
+    display: flex;
+    padding-right: 32px;
+    align-items: center;
+    
+}
+.image__killjoy{
+    position: absolute;
+    height: 85%;
+    transform: translate(0, -57.3%);
+    
+}
+.image__bg{
+    height: 700px;
+}
+.image__logo{
+    position: absolute;
+    width: 70px;
+    transform: translate(-110%, -55%);
+    
+}
